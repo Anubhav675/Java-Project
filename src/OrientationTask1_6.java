@@ -10,7 +10,8 @@ public class OrientationTask1_6 {
             gen.createCustomers(checkout, sizes[i]);
             checkout.serve();
 
-//            System.out.printf("Average service time: %.2f ms%n", checkout.getAverageServiceTime());
+            System.out.printf("Average service time: %.2f ms%n", checkout.getAverageServiceTime());
+
             System.out.println();
         }
     }
