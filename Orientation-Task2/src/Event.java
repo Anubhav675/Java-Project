@@ -1,13 +1,18 @@
 public class Event implements Comparable<Event> {
 
     private double eventTime;
+    private EventType eventType;
 
-    public Event(double eventTime) {
+    public Event(EventType eventType, double eventTime) {
         this.eventTime = eventTime;
+        this.eventType = eventType;
     }
 
     public double getEventTime() {
         return eventTime;
+    }
+    public EventType getEventType() {
+        return eventType;
     }
 
     public int compareTo(Event otherEvent) {
@@ -15,6 +20,6 @@ public class Event implements Comparable<Event> {
     }
 
     public String toString() {
-        return "Event at time " + eventTime;
+        return eventType + " at time " + eventTime;
     }
 }

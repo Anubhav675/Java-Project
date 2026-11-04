@@ -3,11 +3,11 @@ public class Main {
         EventList myEventList = new EventList();
 
 
-        myEventList.addEvent(new Event(10));
-        myEventList.addEvent(new Event(5));
-        myEventList.addEvent(new Event(18));
-        myEventList.addEvent(new Event(6));
-        myEventList.addEvent(new Event(12));
+        myEventList.addEvent(new Event(EventType.ARRIVAL, 10));
+        myEventList.addEvent(new Event(EventType.ARRIVAL,5));
+        myEventList.addEvent(new Event(EventType.EXIT,18));
+        myEventList.addEvent(new Event(EventType.EXIT, 6));
+        myEventList.addEvent(new Event(EventType.ARRIVAL,12));
 
 
         Event firstEvent = myEventList.removeFirstEvent();
