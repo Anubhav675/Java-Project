@@ -5,8 +5,8 @@ public class Main {
 
         myEventList.addEvent(new Event(EventType.ARRIVAL, 10));
         myEventList.addEvent(new Event(EventType.ARRIVAL,5));
-        myEventList.addEvent(new Event(EventType.EXIT,18));
         myEventList.addEvent(new Event(EventType.EXIT, 6));
+        myEventList.addEvent(new Event(EventType.EXIT,18));
         myEventList.addEvent(new Event(EventType.ARRIVAL,12));
 
 
