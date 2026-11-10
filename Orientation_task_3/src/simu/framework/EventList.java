@@ -9,6 +9,14 @@ public class EventList {
         list.add(event);
     }
 
+    public Event remove() {
+        return list.remove();
+    }
+
+    public boolean isEmpty() {
+        return list.isEmpty();
+    }
+
     public int size() {
         return list.size();
     }
